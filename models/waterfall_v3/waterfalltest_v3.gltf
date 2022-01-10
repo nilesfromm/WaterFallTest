@@ -1,0 +1,250 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_texture_transform"
+    ],
+    "extensionsRequired" : [
+        "KHR_texture_transform"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "rock",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "translation" : [
+                0.4210778474807739,
+                0.0001747791247908026,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "waterfall",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "rock",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.09850435703992844,
+                    0.09850435703992844,
+                    0.09850435703992844,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "name" : "waterfall",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.06300997734069824,
+                    0.5583406090736389,
+                    1,
+                    1
+                ],
+                "baseColorTexture" : {
+                    "extensions" : {
+                        "KHR_texture_transform" : {
+                            "offset" : [
+                                0,
+                                0.7999999970197678
+                            ],
+                            "scale" : [
+                                0.20000000298023224,
+                                0.20000000298023224
+                            ]
+                        }
+                    },
+                    "index" : 0
+                },
+                "metallicFactor" : 0.699999988079071,
+                "roughnessFactor" : 0.46666666865348816
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh (2)",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "waterfall",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4,
+                        "TEXCOORD_0" : 5
+                    },
+                    "indices" : 6,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "alpha2",
+            "uri" : "waterfall_texture/alpha2.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 96,
+            "max" : [
+                1.280139684677124,
+                0.5631399750709534,
+                1.0716300010681152
+            ],
+            "min" : [
+                -0.35984399914741516,
+                -0.5631399750709534,
+                -0.9043532609939575
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 96,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 144,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 3049,
+            "max" : [
+                2.00600004196167,
+                0.4007430076599121,
+                1.2418500185012817
+            ],
+            "min" : [
+                0.7351430058479309,
+                -0.4260829985141754,
+                -1.0576499700546265
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 3049,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 3049,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5123,
+            "count" : 7227,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 1152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 2304
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36588,
+            "byteOffset" : 2592
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36588,
+            "byteOffset" : 39180
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24392,
+            "byteOffset" : 75768
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14454,
+            "byteOffset" : 100160
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 114616,
+            "uri" : "waterfalltest_v3.bin"
+        }
+    ]
+}
